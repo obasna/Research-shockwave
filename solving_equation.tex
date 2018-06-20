@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\title{Summary of my calculation}
+\author{Kento Sato}
+\maketitle
+\newpage
+\begin{document}
+  \section{The equation of energy}
+  Typically, we obtain the equation of energy following
+  \begin{equation}
+    \frac{\partial}{\partial t}\left(\frac{1}{2}\rho v^2+\rho\epsilon\right)+\mathrm{div}\left[\rho\bm{v}\left(\frac{1}{2}v^2+w\right)\right]=0.
+  \end{equation}
+  We also include the effect of radiation. Therefore, we have to add new term following
+  \begin{equation}
+    F(r)=-\frac{16\sigma T^3}{3\alpha_{R}}\frac{\partial T}{\partial r}
+  \end{equation}
+  Where $\alpha_R$ is defined below
+  \begin{equation}
+    \frac{1}{\alpha_R}\equiv\frac{\int_0^\infty (\alpha_\nu+\sigma_\nu)^{-1}\frac{\partial B_\nu}{\partial T}d\nu}{\int_0^\infty \frac{\partial B_\nu}{\partial T}d\nu},
+  \end{equation}
+  where $\alpha_\nu$, $\sigma_\nu$, $B_\nu$ are absorption coefficient, scattering coefficient and planck function.
+  We rewrite (1) from cartesian coordinates to cylindrical coordinates
+  \begin{equation}
+    \frac{\partial}{\partial t}\left(\frac{1}{2}\rho v^2+\rho\epsilon\right)+\frac{1}{r}\left[\frac{\partial}{\partial r}\left(r\rho v_r\left(\frac{1}{2}v^2+w\right)\right)+\frac{\partial}{\partial \theta}\left(\right)\right]=0.
+  \end{equation}
+\end{document}

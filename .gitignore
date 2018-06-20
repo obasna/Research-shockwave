@@ -1,0 +1,6 @@
+*.dat
+*/data/lightning_LWeta001.dat
+*/data/lightning_LWeta01.dat
+*/data/lightning_upwind.dat
+*/data/upwind_sod.dat
+*/data/sod_nondimension.dat
